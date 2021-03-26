@@ -2,8 +2,9 @@
   "name": "tatvasoft_test",
   "version": "1.0.0",
   "description": "Test",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,25 @@
   "bugs": {
     "url": "https://github.com/Suraj54321/tatvasoft_test/issues"
   },
-  "homepage": "https://github.com/Suraj54321/tatvasoft_test#readme"
+  "homepage": "https://github.com/Suraj54321/tatvasoft_test#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-router": "0.0.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "jwt-simple": "^0.5.6",
+    "knex": "^0.95.3",
+    "mysql": "^2.18.1",
+    "node-input-validator": "^4.4.0",
+    "node-validator": "^0.1.27",
+    "nodemon": "^2.0.7",
+    "objection": "^2.2.15",
+    "path": "^0.12.7",
+    "uuid": "^8.3.2",
+    "uuid4": "^2.0.2"
+  }
 }
